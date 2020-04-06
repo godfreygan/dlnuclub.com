@@ -1,0 +1,18 @@
+html,body{ background:#F5F8FA; }
+.pub_err_con{ font-size:14px; margin:150px auto; width:800px; height:auto; overflow:hidden; }
+.pub_warnimg_pic{ float:left; width:238px; height:210px; background:url(../images/err_warn.png) no-repeat; }
+.pub404{ float:left; width:470px; height:22px; line-height:22px; overflow:hidden; background:url(../images/err_info.png) no-repeat scroll 0 0; text-indent:-9999px; margin-left:92px; margin-bottom:15px;}
+.pub_err_operate{ float:left; width:470px; border-top:1px dashed #C4C6C8; margin-left:92px; margin-top:30px; padding-top:30px;}
+.pub_err_operate a{ color:#005DE8; font-size:14px; text-decoration:none;}
+.pub_err_operate a:hover{ text-decoration:underline;}
+.pub_err_con p{ margin-top:10px;}
+.mar-left{ float:left; margin-left:92px;}
+
+.pub_footer{ font-size:14px; margin:0px auto; margin-top:120px; padding-bottom:10px; width:960px; height:auto; overflow:hidden; text-align:center; font-size:12px; }
+.footer_nav{ border-top:1px solid #D1D5D8; padding:25px 0 10px;}
+.footer_nav a{ color:#666666; margin:0 5px;}
+.copyright{ color:#757575;}
+.copyright a{ color:#757575; font-family:tahoma;}
+.pub_footer a:hover{ text-decoration:underline;}
+
+.pub500{ float:left; width:470px; height:22px; line-height:22px; overflow:hidden; background:url(../images/err_info.png) no-repeat scroll 0 0; text-indent:-9999px; margin-left:92px; margin-bottom:15px; background-position:0px -22px;}

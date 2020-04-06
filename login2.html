@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户登录</title>
+<link href="css/global.css" type="text/css" rel="stylesheet" />
+<link href="css/login.css" type="text/css" rel="stylesheet" />
+</head>
+<body class="login_page" >
+    <div class="login_header">
+    	<h1 class="login_logo">
+        	<a href="#">民大补习网</a>
+        </h1>
+    </div>
+    
+    <div class="login_content">
+    	<img src="images/login_bg1.png" id="login_bgimgs"/>
+        <script>
+    		(function() {
+    			var imgs = ["images/login_bg1.png", "images/login_bg2.png", "images/login_bg3.png"];
+				var i = Math.floor(Math.random() * imgs.length);
+    			document.getElementById("login_bgimgs").src = imgs[i];
+    		})();
+    		</script>
+        <div class="login_box">
+            <div class="login_box_header">
+                 <ul>
+                  	<li id="login_current_tab"><h2>会员登录</h2></li>
+                    <li><a href="#">手机登录</a></li>
+                 </ul>
+             </div>
+                    
+             <div class="login_box_content">
+                <div class="login_box_form">
+                	<div class="login_box_field">
+                    	<label for="login_username">账户名</label>
+						<input type="text" tabindex="1" maxlength="32" value="888888888@qq.com" title="手机号/会员名/邮箱" class="login_input"  id="login_username">
+                    </div>
+                    
+                    <div class="login_box_field">
+                    	<label for="login_pwd">密　码</label>
+						<input type="password" tabindex="2" maxlength="20" class="login_input" id="login_pwd">				
+                    </div>
+                    
+                    <div class="login_safe">
+                        <span class="login_safe_field">
+                            <input type="checkbox" id="check_safe" ><label for="check_safe">安全控件登录</label>
+                        </span>
+                        <span class="login_safe_field">
+                        	<input type="checkbox"  id="check_auto" ><label for="check_auto">两周内免登录</label>
+                        </span>
+                    </div>
+                    
+                    <span class="login_tips" style="visibility: hidden;">
+                        	&nbsp;
+                    </span>
+                    
+                    <div class="login_submit">
+                    	<button type="submit" tabindex="3">
+                        	登录
+                        </button>
+                        <a href="#" class="login_forget_pwd">忘记密码？</a>
+                    </div>
+                    
+                    <ul class="login_other">
+                    	<li id="login_dynamic-pwd"><a href="#">使用动态密码</a> </li>
+                        <li id="login_register"><a href="#">免费注册</a> </li>
+                    </ul>
+                </div>
+             </div>
+             <div class="login_box_footer"></div>
+             <div class="login_box_mirror">
+             	<span>已经购买过的访客</span>，<a href="#">点此登录</a>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

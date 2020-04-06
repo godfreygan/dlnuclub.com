@@ -1,0 +1,42 @@
+.umain{ width:960px; height:auto; overflow:hidden; clear:both; margin:10px auto; color:#333333;}
+.umain_l{ width:168px; height:auto; overflow:hidden; float:left; border:1px solid #ccdeec; background:#f3faff; text-align:center; padding-bottom:8px;}
+.umain_r{ width:788px; height:auto; height:300px; overflow:hidden; float:right; border:1px solid #ccdeec; border-left:1px solid #FFFFFF; }
+
+.umain_center{ width:538px; height:auto; overflow:hidden; float:left; border:1px solid #ccdeec; border-left:1px solid #ffffff; padding-left:50px; padding-bottom:10px; text-align:left; }
+.umain_r_info{ width:158px; height:auto; overflow:hidden; float:right; margin-left:10px; border:1px solid #ccdeec; background:#f3faff; padding:10px 10px 10px 20px}
+
+
+.umain .umain_l h1{ display:block; color:#FE4C04; width:150px; height:30px; line-height:44px; font-weight:bold; font-size:12px;; vertical-align:middle;}
+.umain .umain_l h1 a{ color:#FE4C04;}
+.umain .umain_l h1 a img{ margin:10px 0; margin-right:8px; vertical-align:middle;}
+.umain .umain_l ul li{ font-size:12px; height:16px; line-height:16px;}
+.umain .umain_l ul li a{ color:#0170DC;}
+.umain .umain_l ul li a:hover{ color:#fe4c04;}
+.umain .umain_l ul { margin:8px 0; padding-left:35px;}
+.umain .umain_l ul li{ height:30px; line-height:30px; background:url(../images/umain_l_libg.jpg) no-repeat scroll left center; text-align:left; padding-left:10px;}
+.umain .umain_l h2{ width:100%; height:27px; line-height:27px; font-size:12px; font-weight:bold; background:#CBE7FF; text-align:left; padding-left:20px;}
+.umain .umain_l h2 img{ margin:5px 0; vertical-align:middle; padding-right:5px;}
+
+
+.umain .umain_r_info h3{ line-height:36px; overflow:hidden; font-size:14px; font-weight:bold; color:#333333;  }
+.umain .umain_r_info ul li{ font-size:12px; color:#333333; line-height:24px;}
+.umain .umain_r_info ul li a{ color: #0170DC;}
+.umain .umain_r_info ul a:hover{ color:#fe4c04;}
+
+
+
+.umain_center a{ color: #0170DC; }
+.umain_center a:hover{ color:#fe4c04;}
+
+#umain_c_daily_msg { width:80%; height:28px; line-height:28px; background:#ECF7FB; border:1px solid #74CAFB; font-size:12px; padding:0 4%; margin:10px 0;}
+#umain_c_daily_msg span{ float:left;}
+#umain_c_daily_msg .tips{ float:left; padding-top:7px; margin-right:5px;} 
+#umain_c_daily_msg .close{ float:right; padding-top:10px;}  
+
+.umain_c_welcome{ font-size:14px; font-weight:bold;}
+.umain_c_welcome font{ color:#FE4C04; margin-right:8px;}
+.umain_c_welcome img{  margin-right:6px;}
+.umain_c_welcome a{ color:#fe4c04; font-size:12px; line-height:normal; font-weight:normal; }
+
+.umain_c_unit{ font-size:12px; line-height:20px; font:Arial, Helvetica, sans-serif; padding:5px 0;}
+.umain_center hr{ width:88%; height:1px; border:none; border-bottom:1px dashed #E0E0E0; margin:8px 0; text-align:left;}

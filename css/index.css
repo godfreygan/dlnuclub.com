@@ -1,0 +1,132 @@
+
+.leftSide{ width:600px; height:auto; overflow:hidden; float:left; margin-top:5px;}
+.rightSide{ width:350px; height:auto; overflow:hidden; float:right; margin-top:5px;}
+
+.latestNews{ float:left; width:100%;}
+.latestNews h5{ float:left; line-height:20px;}
+.latestNews span a{ float:left; line-height:20px; margin-left:12px; font-size:12px;}
+.srollNews{ float:left; clear:both; width:96%; height:28px; line-height:28px; background:url(../images/scroll_news_bg.gif) top left repeat-x; 
+margin-top:6px; padding:0 2%;font-size:12px;}
+
+.picTab{ float:left; clear:both; width:590px; height:154px;margin-top:6px; }
+
+/*找家教信息*/
+.findTutorNews{ float:left; width:100%; height:auto; overflow:hidden; clear:both; margin-top:8px; }
+.findTutorNewsTitle{ float:left; width:100%; height:32px; line-height:32px; background-color:#d2ed8c; }
+.findTutorNewsTitle strong{ float:left; font-size:12px;  margin-left:10px;}
+.findTutorNewsTitle img{ float:right; font-size:12px; margin-top:1px;  margin-right:0px;}
+
+.findTutorNewsContent{ width:98%; height:auto; overflow:hidden; clear:both; padding-left:10px; padding-bottom:3px; font-size:12px; border:1px solid #e4e4e4;}
+.findTutorNewsCTitle{ width:100%; color:#666666; line-height:24px;}
+.findTutorNewsCTitle span{ display:block; float:left; margin-right:6px; text-align:center;} 
+
+.findTutorNewsContent ul li{ display:block; float:left; border-bottom:1px dashed #dfdfdf; padding:4px 0px;}
+.findTutorNewsContent ul li:hover{ background:#EEEEEE; }
+.findTutorNewsContent ul li span{ display:block; float:left; margin-right:6px; text-align:center;} 
+
+.findTutorNewsCId{ width:30px;}
+.findTutorNewsCGrade{ width:40px;}
+.findTutorNewsCSex{ width:30px; }
+.findTutorNewsCSubject{ width:80px;}
+.findTutorNewsCArea{ width:100px;}
+.findTutorNewsCType{ width:60px;}
+.findTutorNewsCView{ width:80px;}
+.findTutorNewsDate{ width:100px;}
+
+.findTutorNewsMore{ float:right; clear:both; width:auto; margin-top:8px; margin-right:16px;}
+
+/*做家教信息*/
+.doTutorNews{ float:left; width:100%; height:auto; overflow:hidden; clear:both; margin-top:0px; }
+.doTutorNewsTitle{ float:left; width:100%; height:32px; line-height:32px; background-color:#d2ed8c; }
+.doTutorNewsTitle strong{ float:left; font-size:12px;  margin-left:10px;}
+.doTutorNewsTitle img{ float:right; font-size:12px; margin-top:1px;  margin-right:0px;}
+
+.doTutorNewsContent{ width:98%; height:auto; overflow:hidden; clear:both; padding-left:10px; padding-bottom:3px; font-size:12px; border:1px solid #e4e4e4;}
+.doTutorNewsCTitle{ width:100%; color:#666666; line-height:24px;}
+.doTutorNewsCTitle span{ display:block; float:left; margin-right:6px; text-align:center;} 
+
+.doTutorNewsContent ul li{ display:block; float:left; border-bottom:1px dashed #dfdfdf; padding:4px 0px;}
+.doTutorNewsContent ul li:hover{ background:#EEEEEE; }
+.doTutorNewsContent ul li span{ display:block; float:left; margin-right:6px; text-align:center;} 
+
+.doTutorNewsCId{ width:30px;}
+.doTutorNewsCName{ width:40px;}
+.doTutorNewsCSex{ width:30px; }
+.doTutorNewsCIdentification{ width:40px;}
+.doTutorNewsCSubject{ width:80px;}
+.doTutorNewsCSchool{ width:100px;}
+.doTutorNewsCCurrentIdentity{ width:90px;}
+.doTutorNewsDate{ width:100px;}
+
+.doTutorNewsMore{ display:block; float:right; margin-top:8px; margin-right:16px;}
+
+
+
+.recommendTutor{ float:left; width:100%; clear:both; height:auto; overflow:hidden; font-size:12px; margin-top:6px; }
+.recommentTutorHeader{ width:100%; clear:both; height:26px; line-height:26px; background:#d2ed8c;}
+.recommentTutorHeader strong{ float:left; margin-left:10px;}
+.recommentTutorHeader a{ float:right; margin-right:10px;}
+
+.recommentTutorContent{ width:958px; height:auto; overflow:hidden; float:left; border:1px solid #e4e4e4; padding-top:5px; padding-bottom:5px;}
+.recommentTutorContent ul li{ float:left; width:450px; height:22px; line-height:22px; margin-right:10px; overflow:hidden; padding-left:10px; }
+.recommentTutorContent ul li a{ float:left; margin-left:6px; margin-right:8px; width:110px; height:22px; overflow:hidden;} 
+.recommentTutorContent ul li span{ float:left; width:80px; height:22px; overflow:hidden;} 
+
+.trainningAgency{ float:left; width:960px; clear:both; height:auto; overflow:hidden; font-size:12px; margin-top:6px; }
+
+.trainningAgencyHeader{ float:left; width:36px; height:150px; background:#fedb67; text-align:center; line-height:18px; padding-top:13px; font-weight:bold; }
+.trainningAgencyTable{ float:right; width:916px;  height:auto; overflow:hidden;}
+.trainningAgencyTable ul{ display:block; float:left; width:915px; height:auto; overflow:hidden; border-bottom:1px solid #e4e4e4; border-right:1px solid #e4e4e4;}
+.trainningAgencyTable ul li{ display:block;float:left; width:299px; height:26px; line-height:26px; border-top:1px solid #e4e4e4; border-left:1px solid #e4e4e4; padding-left:5px;}
+
+
+
+
+
+.smallWidth{ width:288px; height:auto; overflow:hidden;}
+.bigWidth{ width:360px; height:auto; overflow:hidden;}
+
+.smallUint{ float:left; width:288px; font-size:12px; margin-top:8px; margin-right:12px;}
+.smallUintHeader{ float:left; width:100%; height:24px; line-height:24px; background:#d2ed8c;}
+.smallUintHeader strong{ float:left; margin-left:10px;} 
+.smallUintHeader span{ float:right; margin-right:10px;} 
+
+.smallUintContent{ float:left; width:286px; height:auto; overflow:hidden; border:1px solid #e4e4e4; padding:5px 0px; }
+.smallUintContent ul li span{ float:left; font-weight:bold; color:#333333; margin-right:5px} 
+.smallUintContent ul li{ float:left; clear:both; width:96%; height:20px; line-height:20px; overflow:hidden; padding-left:3%; }
+
+
+.bigUint{ float:left; width:360px; font-size:12px; margin-top:8px;}
+.bigUintHeader{ float:left; width:100%; height:24px; line-height:24px; background:#d2ed8c;}
+.bigUintHeader strong{ float:left; margin-left:10px;} 
+.bigUintHeader span{ float:right; margin-right:10px;} 
+
+.bigUintContent{ float:left; width:358px; height:auto; overflow:hidden; border:1px solid #e4e4e4; padding:5px 0px; }
+.bigUintContent ul li span{ float:left; margin-right:8px; color:#de0000;} 
+.bigUintContent ul li{ float:left; clear:both; width:96%; height:20px; line-height:20px; overflow:hidden; padding-left:3%; }
+
+
+
+
+
+.dateWeather{ width:95%; clear:both; border:1px solid #79c42c; padding:2%; font-size:13px;}
+
+.right_opinion{ float:left; width:93%; height:50px; line-height:50px; font-size:12px; 
+background:url(../images/right_opinion_bg.jpg) top left repeat-x; border:1px solid #ffdd6f; margin:8px 0px; padding:0px 3%;}
+.right_opinion a{ margin-right:5px;}
+
+.tutorNews{ width:100%; height:auto; overflow:hidden;}
+.tutorNewsHead{ float:left; clear:both; width:96%; height:26px; line-height:26px; font-size:12px; background:#53d622; padding:0px 2%; color:#FFFFFF;}
+.tutorNewsHeadText{ float:left; font-weight:bold; }
+.tutorNewsHeadMore{ float:right;}
+
+.tutorNews ul{ width:100%; display:block; clear:both; font-size:12px;}
+.tutorNews ul li{ clear:both;}
+.tutorNews ul li img{ display:block; float:left; width:6px; height:6px; margin-top:8px; margin-right:8px; overflow:hidden;  }
+.tutorNews ul li a{ display:block; float:left; width:91%; height:22px; line-height:22px;overflow: hidden; white-space: nowrap;-o-text-overflow: ellipsis;text-overflow: ellipsis; }
+
+/*
+.tutorNews ul li:not(p) { clear: both;}   
+.tutorNews ul li:not(p) a { max-width:91%; float: left;}   
+.tutorNews ul li:not(p):after {content:"...";float:left;width:4%;padding-left: 1px; color:#0000FF;} 
+*/
